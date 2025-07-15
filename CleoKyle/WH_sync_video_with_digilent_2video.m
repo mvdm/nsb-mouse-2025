@@ -12,7 +12,7 @@ cfg.trial_padding = 25; % number of frames either side of start and end frames
 
 % define the files.
 close all
-fd = 'C:\data\nsb2025\M288-2025-07-08_obstacle';
+fd = 'C:\data\nsb2025\M288-2025-07-09_gap';
 cd(fd);
 digilent_file = [fd '\acq0020.csv'];
 video_file{1} = [fd '\video1_qtr.mp4'];
